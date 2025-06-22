@@ -6,9 +6,6 @@ def divideString(s, k, fill):
     :rtype: List[str]
     """
     
-    # first we will need to create a rule that will generate number of k holders
-    # print(len(s)//3)
-    
     data = []
     indx = 0
     while indx < len(s):
